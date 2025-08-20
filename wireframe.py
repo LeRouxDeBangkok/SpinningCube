@@ -65,7 +65,7 @@ def draw_cube(size, ax, ay, az):
 
 
 def main():
-    size = int(input("Size of cube: "))
+    size = int(input("Cube size: "))
     ax = ay = az = 0.0
     while True:
         draw_cube(size, ax, ay, az)
