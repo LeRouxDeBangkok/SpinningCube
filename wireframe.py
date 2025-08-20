@@ -4,11 +4,8 @@ import os
 
 def rotate(point, ax, ay, az):
     x, y, z = point
-    # rotation autour de X
     y, z = y * math.cos(ax) - z * math.sin(ax), y * math.sin(ax) + z * math.cos(ax)
-    # rotation autour de Y
     x, z = x * math.cos(ay) + z * math.sin(ay), -x * math.sin(ay) + z * math.cos(ay)
-    # rotation autour de Z
     x, y = x * math.cos(az) - y * math.sin(az), x * math.sin(az) + y * math.cos(az)
     return x, y, z
 
