@@ -1,11 +1,10 @@
 # SpinningCube
 
-A simple python program that spins a cube in a console according to size input from user<br>
+A simple python program that spins a cube in ASCII art, using a console window. The cube scales according to the size input from the user.<br>
 
 <h4>How to use it:</h4>
-- Go to SpinningCube\dist\ <br>
+- Prebuilt .exe: go to the directory: ( SpinningCube\dist\ ) <br>
 - Choose which version of the animation you like (full or wired)<br>
-- Input size, ideally 6, but anywhere from 2-10 works <br>
-
-<h4>To do:</h4>
-- Fix full ASCII animation to look more realistic
+- Recommended input sizes:
+  - Wired: ~4<br>
+  - Full: ~20 <br>
