@@ -19,7 +19,7 @@ def calculateX(i, j, k):
     return j*math.sin(A)*math.sin(B)*math.cos(C) - k*math.cos(A)*math.sin(B)*math.cos(C) + j*math.cos(A)*math.sin(C) + k*math.sin(A)*math.sin(C) + i*math.cos(B)*math.cos(C)
 
 def calculateY(i, j, k):
-    return j+math.cos(A)*math.cos(C) + k*math.sin(A)*math.cos(C) - j*math.sin(A)*math.sin(B)*math.sin(C) + k*math.cos(A)*math.sin(B)*math.sin(C) - i*math.cos(B)*math.sin(C)
+    return j*math.cos(A)*math.cos(C) + k*math.sin(A)*math.cos(C) - j*math.sin(A)*math.sin(B)*math.sin(C) + k*math.cos(A)*math.sin(B)*math.sin(C) - i*math.cos(B)*math.sin(C)
 
 def calculateZ(i, j, k):
     return k*math.cos(A)*math.cos(B) - j*math.sin(A)*math.cos(B) + i*math.sin(B)
