@@ -6,10 +6,5 @@ A simple python program that spins a cube in ASCII art, using a console window. 
 - Prebuilt .exe: go to the directory: ( SpinningCube\dist\ ) <br>
 - Choose which version of the animation you like (full or wired)<br>
 - Recommended input sizes: Wired: ~4, Full: ~20 <br>
-
-https://github.com/user-attachments/assets/e8206db7-a263-4b27-956d-989d17d5f060
-
-
-
-https://github.com/user-attachments/assets/e413e834-9391-4dd2-8f9e-6beb8cabab03
-
+![CubeFull](https://github.com/user-attachments/assets/aaa48fff-e6a9-4a3b-bc52-ff71516f9400)
+![CubeWired](https://github.com/user-attachments/assets/0ce231bd-c1b3-4e35-bc5b-488801567cf4)
