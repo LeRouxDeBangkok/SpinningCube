@@ -10,7 +10,10 @@ def rotate(point, ax, ay):
 
 def project(point, scale=20, dist=5):
     x, y, z = point
-    factor = scale / (z + dist)
+    denom = z + dist
+    if abs(denom) < 1e-6:
+        denom = 1e-6  # évite division par zéro
+    factor = scale / denom
     return int(x * factor + 40), int(y * factor + 12)
 
 def polygon_center(points3D, indices):
